@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Main</title>
+    <link rel="icon" href="./images/day-clear-512.png" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+</head>
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use my website to get the weather forecast</p>
+        <form>
+            <input placeholder="Enter your location">
+            <button type="submit">Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
